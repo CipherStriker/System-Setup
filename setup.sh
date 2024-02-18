@@ -1,7 +1,12 @@
 #!/bin/bash
 
+# Create folders
 cd ~
 mkdir .dotfiles Allendevaux Exploits CustomCodes Post-Exploitation Pre-Exploitation Offensive-Security Github-Repos Wordlist
+cd ~/Post-Exploitation
+mkdir Linux Windows
+cd ~/Pre-Exploitation
+mkdir Reverse-Shell
 
 cd .dotfiles
 wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/directory-fuzzer"
