@@ -4,15 +4,15 @@ cd ~
 mkdir .dotfiles Allendevaux Exploits CustomCodes Post-Exploitation Pre-Exploitation Offensive-Security Github-Repos Wordlist
 
 cd .dotfiles
-wget "https://github.com/CipherStriker/System-Setup/blob/main/.dotfiles(aliases)/directory-fuzzer"
-wget "https://github.com/CipherStriker/System-Setup/blob/main/.dotfiles(aliases)/misc"
-wget "https://github.com/CipherStriker/System-Setup/blob/main/.dotfiles(aliases)/scanning-aliases"
-wget "https://github.com/CipherStriker/System-Setup/blob/main/.dotfiles(aliases)/system-aliases"
-wget "https://github.com/CipherStriker/System-Setup/blob/main/.dotfiles(aliases)/to-be-sorted"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/directory-fuzzer"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/misc"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/scanning-aliases"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/system-aliases"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/to-be-sorted"
 
 cd ~
 cd CustomCodes
-wget "https://github.com/CipherStriker/System-Setup/blob/main/CustomCodes/url-decode.py"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/CustomCodes/url-decode.py"
 
 # cd ~
 # cd Wordlist
