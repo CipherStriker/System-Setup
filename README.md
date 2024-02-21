@@ -30,5 +30,7 @@ JSParser
 golang : Language
 wp-scan
 nala : package manager
+ccat (colorized cat) : go install github.com/jingweno/ccat@latest
 
 Nahamsec Setup : git clone https://github.com/nahamsec/bbht.git
+
