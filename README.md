@@ -27,6 +27,7 @@ autojump : echo "source /usr/share/autojump/autojump.sh" >> .zshrc
 dirsearch
 gobuster
 JSParser
+jwt_tools
 screenshot tools :
   webscreenshot.py
   gowitness
