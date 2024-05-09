@@ -3,6 +3,7 @@
 - CustomScripts
 - Exploits
 - Offensive-Security
+- Github-Repos
 - Post-Exploitation
   - Linux
   - Windows
@@ -36,6 +37,7 @@ JSParser
 steghide
 jwt_tools
 hakrawler
+ghauri
 screenshot tools :
   webscreenshot.py
   gowitness
