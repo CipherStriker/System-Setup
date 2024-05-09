@@ -9,7 +9,7 @@
 - Platform
   - Linux
   - Windows
-  - WebApps
+  - WebApp
     - OWASP
 - .dotfiles
 
