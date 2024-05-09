@@ -1,11 +1,11 @@
 # Create-Folder(){
-> Allendevaux
-> CustomCodes
-> Exploits
-> Offensive-Security
-> Post-Exploitation
-> Pre-Exploitation
-> .dotfiles
+- Allendevaux
+- CustomCodes
+- Exploits
+- Offensive-Security
+- Post-Exploitation
+- Pre-Exploitation
+- .dotfiles
 }
 
 # WorkFlow(){
