@@ -35,6 +35,7 @@ gobuster
 JSParser
 steghide
 jwt_tools
+hakrawler
 screenshot tools :
   webscreenshot.py
   gowitness
