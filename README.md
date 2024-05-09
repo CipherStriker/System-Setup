@@ -1,10 +1,16 @@
 # Create-Folder()
 - Allendevaux
-- CustomCodes
+- CustomScripts
 - Exploits
 - Offensive-Security
 - Post-Exploitation
-- Pre-Exploitation
+  - Linux
+  - Windows
+- Platform
+  - Linux
+  - Windows
+  - WebApps
+    - OWASP
 - .dotfiles
 
 
