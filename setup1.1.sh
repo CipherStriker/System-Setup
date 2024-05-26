@@ -1,13 +1,15 @@
 #!/bin/bash
 
 echo "Creating Directories"
-mkdir .dotfiles Allendevaux Exploits CustomScripts Post-Exploitation Platform Offensive-Security Github-Repos Wordlist Temp Test
+mkdir .dotfiles Allendevaux Exploits Offensive-Security Github-Repos Wordlist Temp Test
 
 
 echo "Downloading System-Backup repository"
 cd
 git clone https://github.com/CipherStriker/System-Backup.git
 
+mv System-Backup/* $HOME/.
+rm -rf System-Backup
 
 #cd $HOME/Wordlist
 #git clone https://github.com/danielmiessler/SecLists.git
