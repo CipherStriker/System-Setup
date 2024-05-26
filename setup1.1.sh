@@ -23,6 +23,6 @@ echo ""
 echo "Sourcing files in .zshrc file"
 # Source all alias files
 cd ~
-echo "source $HOME/.dotfiles/allcustomcommands" >> .zshrc
+echo "source $HOME/.dotfiles/allCustomCommand" >> .zshrc
 echo "source $HOME/.dotfiles/commandNotes" >> .zshrc
 # echo "source /usr/share/autojump/autojump.sh" >> .zshrc
