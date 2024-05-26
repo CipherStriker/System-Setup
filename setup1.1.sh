@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Creating Directories"
+
+
 echo "Downloading System-Backup repository"
 cd
 git clone https://github.com/CipherStriker/System-Backup.git
