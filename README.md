@@ -33,6 +33,7 @@ Tools to download :
 autojump : echo "source /usr/share/autojump/autojump.sh" >> .zshrc 
 dirsearch
 gobuster
+gospider
 JSParser
 steghide
 jwt_tools
