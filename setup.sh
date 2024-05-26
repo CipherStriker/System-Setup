@@ -19,6 +19,7 @@ cd .dotfiles
 # wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/system-aliases"
 # wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/to-be-sorted"
 wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/allcustomcommands"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/.dotfiles(aliases)/commandNotes"
 
 cd ~
 cd CustomScripts
@@ -37,3 +38,4 @@ cd ~
 # echo "source ~/.dotfiles/to-be-sorted" >> .zshrc
 # echo "source ~/.dotfiles/misc" >> .zshrc
 echo "source ~/.dotfiles/allcustomcommands" >> .zshrc
+echo "source ~/.dotfiles/commandNotes" >> .zshrc
