@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Creating Directories"
+mkdir .dotfiles Allendevaux Exploits CustomScripts Post-Exploitation Platform Offensive-Security Github-Repos Wordlist Temp Test
 
 
 echo "Downloading System-Backup repository"
@@ -9,10 +10,10 @@ git clone https://github.com/CipherStriker/System-Backup.git
 
 cd ~
 mkdir Wordlist && cd Wordlist
-git clone https://github.com/danielmiessler/SecLists.git
+#git clone https://github.com/danielmiessler/SecLists.git
 
 # Source all alias files
 cd ~
-echo "source ~/.dotfiles/allcustomcommands" >> .zshrc
-echo "source ~/.dotfiles/commandNotes" >> .zshrc
+echo "source $HOME/.dotfiles/allcustomcommands" >> .zshrc
+echo "source $HOME/.dotfiles/commandNotes" >> .zshrc
 # echo "source /usr/share/autojump/autojump.sh" >> .zshrc
