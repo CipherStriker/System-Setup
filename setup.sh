@@ -25,6 +25,11 @@ cd ~
 cd CustomScripts
 wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/CustomCodes/url-decode.py"
 wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/CustomCodes/url-encode.py"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/CustomCodes/pcat.py"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/CustomCodes/basicAuthHeaderBruteForce.py"
+wget "https://raw.githubusercontent.com/CipherStriker/System-Backup/main/CustomCodes/shellshock.sh"
+
+
 
 # cd ~
 # cd Wordlist
@@ -39,3 +44,4 @@ cd ~
 # echo "source ~/.dotfiles/misc" >> .zshrc
 echo "source ~/.dotfiles/allcustomcommands" >> .zshrc
 echo "source ~/.dotfiles/commandNotes" >> .zshrc
+echo "source /usr/share/autojump/autojump.sh" >> .zshrc
