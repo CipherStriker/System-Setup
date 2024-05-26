@@ -8,8 +8,8 @@ echo "Downloading System-Backup repository"
 cd
 git clone https://github.com/CipherStriker/System-Backup.git
 
-cd ~
-mkdir Wordlist && cd Wordlist
+
+#cd $HOME/Wordlist
 #git clone https://github.com/danielmiessler/SecLists.git
 
 # Source all alias files
