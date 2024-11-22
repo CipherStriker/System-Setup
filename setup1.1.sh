@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Creating Directories"
-mkdir Allendevaux Exploits Offensive-Security Github-Repos Wordlist Temp Test
+mkdir Allendevaux Certificates Github-Repos Wordlist
 echo ""
 
 echo "Downloading System-Backup repository"
