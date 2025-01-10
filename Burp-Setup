@@ -1,0 +1,22 @@
+### Copy below line of code for desktop shortcut
+nano Burp_Pro_v2023.2.2.desktop
+```bash
+[Desktop Entry]
+Type=Application
+Name=Burp-Pro
+Icon=/home/kali/BurpPro/burp_v2023.2.2/burp.png
+Exec=/home/kali/BurpPro/burp_v2023.2.2/burp.sh
+Name[en_US]=Burpsuite_2023
+Terminal=false
+StartupNotify=false
+```
+### Check for burp.sh permission.
+or change it to 771.
+
+### Double click on the desktop shortcut to launch the application. Provide neccessary permissions.
+
+### If the Loader.jar does not run properly and shows activation page directly, start the loader.jar in windows VM.
+### Click on RUN.
+### Copy the licence and paste it in the main application.
+### Click on Next, and then Manual Activation.
+### and then follow the rest.
