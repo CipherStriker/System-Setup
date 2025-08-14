@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Creating Directories"
-mkdir Allendevaux Certificates Github-Repos Wordlist
+mkdir -p Allendevaux/VPN Certificates Github-Repos Wordlist
 echo ""
 
 echo "Downloading System-Backup repository"
