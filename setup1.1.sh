@@ -27,3 +27,5 @@ echo "# Sourcing Custom Commands" >> .zshrc
 echo "source $HOME/.dotfiles/allCustomCommand" >> .zshrc
 echo "source $HOME/.dotfiles/commandNotes" >> .zshrc
 # echo "source /usr/share/autojump/autojump.sh" >> .zshrc
+
+source $HOME/.zshrc
