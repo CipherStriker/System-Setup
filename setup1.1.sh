@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# SETUP
 echo "Creating Directories"
 mkdir -p Allendevaux/VPN Certificates Github-Repos Wordlist
 echo ""
@@ -27,5 +28,13 @@ echo "# Sourcing Custom Commands" >> .zshrc
 echo "source $HOME/.dotfiles/allCustomCommand" >> .zshrc
 echo "source $HOME/.dotfiles/commandNotes" >> .zshrc
 # echo "source /usr/share/autojump/autojump.sh" >> .zshrc
+
+source $HOME/.zshrc
+
+# ACTIONS
+echo "Update allCustomCommand and commandNotes"
+pull allCustomCommand
+pull commandNotes
+bash $HOME/CustomScripts/toolsCheck.sh
 
 source $HOME/.zshrc
